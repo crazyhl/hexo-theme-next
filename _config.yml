@@ -83,7 +83,7 @@ footer:
     icp: 黑ICP备14004728号-1
 
   # Any custom text can be defined here.
-  custom_text: CDN 由 <a style="border-bottom:none;" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"><img style="display:inline-block;height:28px;vertical-align:text-top;margin-top:-4px;" src="https://up-cdn.h57.pw/upyun_logos/%E5%8F%88%E6%8B%8D%E4%BA%91_logo5.png" alt="" /></a> 提供服务
+  custom_text: CDN 由 <a style="border-bottom:none;" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"><img style="display:inline-block;height:28px;vertical-align:text-top;margin-top:-4px;" src="https://up-cdn.cimple.ink/upyun_logos/%E5%8F%88%E6%8B%8D%E4%BA%91_logo5.png" alt="" /></a> 提供服务
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples

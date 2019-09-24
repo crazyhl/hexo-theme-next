@@ -27,7 +27,7 @@ custom_file_path:
   #sidebar: source/_data/sidebar.swig
   #postMeta: source/_data/post-meta.swig
   #postBodyEnd: source/_data/post-body-end.swig
-  #footer: source/_data/footer.swig
+  footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.swig
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -82,22 +82,14 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-<<<<<<< HEAD
     enable: true
     icp: 黑ICP备14004728号-3
-
-  # Any custom text can be defined here.
-  custom_text: CDN 由 <a style="border-bottom:none;" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"><img style="display:inline-block;height:28px;vertical-align:text-top;margin-top:-4px;" src="https://up-cdn.cimple.ink/upyun_logos/%E5%8F%88%E6%8B%8D%E4%BA%91_logo5.png" alt="" /></a> 提供服务
-=======
-    enable: false
-    icp:
     # The digit in the num of gongan beian.
     gongan_id:
     # The full num of gongan beian.
     gongan_num:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
->>>>>>> upstream/master
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -124,11 +116,11 @@ disable_baidu_transformation: false
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
+index_with_subtitle: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: false
@@ -239,13 +231,7 @@ avatar:
   # You can also use other linking images.
   url: /images/5474833.jpeg #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
-<<<<<<< HEAD
-  rounded: true
-  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-  opacity: 1
-=======
   rounded: false
->>>>>>> upstream/master
   # If true, the avatar would be rotated with the cursor.
   rotated: false
 
@@ -282,18 +268,6 @@ sidebar:
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
-<<<<<<< HEAD
-  # Click any blank part of the page to close sidebar (only for Muse | Mist).
-  dimmer: false
-
-back2top:
-  enable: true
-  # Back to top in sidebar.
-  sidebar: true
-  # Scroll percent label in b2t button.
-  scrollpercent: false
-=======
->>>>>>> upstream/master
 
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
@@ -620,13 +594,8 @@ quicklink:
 
 
 # ---------------------------------------------------------------
-<<<<<<< HEAD
-# Comments and Widgets
-# See: https://theme-next.org/docs/third-party-services/comments-and-widgets/
-=======
 # Comments Settings
 # See: https://theme-next.org/docs/third-party-services/comments
->>>>>>> upstream/master
 # ---------------------------------------------------------------
 
 # Multiple Comment System Support
@@ -673,33 +642,15 @@ disqusjs:
 
 # Changyan
 changyan:
-<<<<<<< HEAD
   enable: true
   appid: cytg9l84S
   appkey: 18aa1e27414e19e0359ceb50b4ef0707
-=======
-  enable: false
-  appid:
-  appkey:
   #post_meta_order: 0
->>>>>>> upstream/master
 
 # Valine
 # You can get your appid and appkey from https://leancloud.cn
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-<<<<<<< HEAD
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  7lQxc5nPt1GxNmpvlOmhjbJm-gzGzoHsz# your leancloud application appid
-  appkey:  rR41hnbye4vOz6BW14R1Sd3d# your leancloud application appkey
-  notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
-  verify: true # Verification code
-  placeholder: 不说点啥就想走么？ヾﾉ≧∀≦)o # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-  language: # language, available values: en, zh-cn
-=======
   enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
   appid: # Your leancloud application appid
   appkey: # Your leancloud application appkey
@@ -710,7 +661,6 @@ valine:
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
   language: # Language, available values: en, zh-cn
->>>>>>> upstream/master
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   #post_meta_order: 0
@@ -737,97 +687,10 @@ gitalk:
 
 
 # ---------------------------------------------------------------
-<<<<<<< HEAD
-# Content Sharing Services
-# See: https://theme-next.org/docs/third-party-services/content-sharing-services/
-# ---------------------------------------------------------------
-
-# Baidu Share
-# Available values: button | slide
-# Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
-
-# AddThis Share, See: https://www.addthis.com
-# Go to https://www.addthis.com/dashboard to customize your tools.
-#add_this_id:
-
-# Likely Share
-# See: https://ilyabirman.net/projects/likely/
-# Likely supports four looks, nine social networks, any button text
-# You are free to modify the text value and order of any network
-likely:
-  enable: false
-  look: normal # available values: normal, light, small, big
-  networks:
-    twitter: Tweet
-    facebook: Share
-    linkedin: Link
-    gplus: Plus
-    vkontakte: Share
-    odnoklassniki: Class
-    telegram: Send
-    whatsapp: Send
-    pinterest: Pin
-
-# NeedMoreShare2
-# Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
-# iconStyle: default | box
-# boxForm: horizontal | vertical
-# position: top / middle / bottom + Left / Center / Right
-# networks:
-# Weibo,Wechat,Douban,QQZone,Twitter,Facebook,Linkedin,Mailto,Reddit,Delicious,StumbleUpon,Pinterest,
-# GooglePlus,Tumblr,GoogleBookmarks,Newsvine,Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
-needmoreshare2:
-  enable: false
-  postbottom:
-    enable: false
-    options:
-      iconStyle: box
-      boxForm: horizontal
-      position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
-  float:
-    enable: false
-    options:
-      iconStyle: box
-      boxForm: horizontal
-      position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
-
-
-# ---------------------------------------------------------------
-# Statistics and Analytics
-# See: https://theme-next.org/docs/third-party-services/statistics-and-analytics/
-# ---------------------------------------------------------------
-
-# Baidu Analytics ID
-baidu_analytics: 70f87266d64878c90862dfc1fd5c07d0
-
-# Growingio Analytics ID
-# Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
-#growingio_analytics: #your projectId
-
-# Google Analytics
-#google_analytics:
-#  tracking_id:
-#  localhost_ignored: true
-
-# CNZZ count
-cnzz_siteid: 1277792116
-
-# Application Insights
-# See: https://azure.microsoft.com/en-us/services/application-insights
-#application_insights:
-
-# Post widgets & FB/VK comments settings.
-# ---------------------------------------------------------------
-=======
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.org/docs/third-party-services/post-widgets
 # ---------------------------------------------------------------
 
->>>>>>> upstream/master
 # Facebook SDK Support
 facebook_sdk:
   enable:       false
@@ -873,7 +736,7 @@ add_this_id:
 # ---------------------------------------------------------------
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: 70f87266d64878c90862dfc1fd5c07d0
 
 # Growingio Analytics
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -885,7 +748,7 @@ google_analytics:
   localhost_ignored: true
 
 # CNZZ count
-cnzz_siteid:
+cnzz_siteid: 1277792116
 
 # Application Insights
 # See: https://azure.microsoft.com/en-us/services/application-insights
@@ -1053,23 +916,6 @@ motion:
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 
-<<<<<<< HEAD
-# Fancybox. There is support for old version 2 and new version 3.
-# Choose only one variant, do not need to install both.
-# To install 2.x: https://github.com/theme-next/theme-next-fancybox
-# To install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: true
-
-# Polyfill to remove click delays on browsers with touch UIs.
-# Dependencies: https://github.com/theme-next/theme-next-fastclick
-fastclick: true
-
-# Vanilla JavaScript plugin for lazyloading images.
-# Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
-lazyload: true
-
-=======
->>>>>>> upstream/master
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
@@ -1160,44 +1006,23 @@ vendors:
 
   # FancyBox
   # Example:
-<<<<<<< HEAD
-  fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
-  # fancybox: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js
-  fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-  # fancybox_css: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css
-  # fancybox:
-  # fancybox_css:
-=======
   # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
   # fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   # fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-  jquery:
-  fancybox:
-  fancybox_css:
->>>>>>> upstream/master
+  jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
+  fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
+  fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
 
   # Medium-zoom
   # Example:
-<<<<<<< HEAD
-  fastclick: //cdn.jsdelivr.net/npm/fastclick@1/lib/fastclick.min.js
-  # fastclick: //cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
-  # fastclick:
-=======
   # mediumzoom: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
   mediumzoom:
->>>>>>> upstream/master
 
   # Lazyload
   # Example:
-<<<<<<< HEAD
-  lazyload: //cdn.jsdelivr.net/npm/jquery-lazyload@1/jquery.lazyload.min.js
-  # lazyload: //cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js
-  # lazyload:
-=======
   # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
   # lazyload: //cdnjs.cloudflare.com/ajax/libs/lozad.js/1.9.0/lozad.min.js
-  lazyload:
->>>>>>> upstream/master
+  lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
 
   # Pangu
   # Example:
@@ -1207,11 +1032,6 @@ vendors:
 
   # Quicklink
   # Example:
-<<<<<<< HEAD
-  # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-  fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-=======
   # quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js
   quicklink:
 
@@ -1227,7 +1047,6 @@ vendors:
   # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.4/Valine.min.js
   valine:
->>>>>>> upstream/master
 
   # Gitalk
   # Example:
@@ -1285,29 +1104,6 @@ vendors:
   canvas_sphere:
 
   # Internal version: 1.0.0
-<<<<<<< HEAD
-  # See: https://github.com/zproo/canvas-ribbon
-  # Example:
-  # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
-  canvas_ribbon:
-
-  # Internal version: 4.0.7
-  # See: https://github.com/vinta/pangu.js
-  # Example:
-  pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
-  # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
-  # pangu:
-
-  # Internal version: 1.0.0
-  # See: https://github.com/GoogleChromeLabs/quicklink
-  # Example:
-  # quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js
-  quicklink:
-
-  # Internal version: 1.0.0
-  # See: https://github.com/revir/need-more-share2
-=======
->>>>>>> upstream/master
   # Example:
   # canvas_nest: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js
   # canvas_nest_nomobile: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest-nomobile.min.js
